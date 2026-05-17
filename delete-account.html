@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Suppression de compte – Rungo</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: #1a1a1a;
+      background: #ffffff;
+      padding: 2rem 1rem;
+    }
+    .container { max-width: 700px; margin: 0 auto; }
+    header { margin-bottom: 2.5rem; border-bottom: 1px solid #e5e5e5; padding-bottom: 1.5rem; }
+    header h1 { font-size: 26px; font-weight: 600; margin-bottom: 0.5rem; }
+    header p { color: #666; font-size: 14px; }
+    h2 { font-size: 17px; font-weight: 600; margin: 1.75rem 0 0.6rem; color: #111; }
+    p { margin-bottom: 0.75rem; color: #333; }
+    ul { margin: 0.5rem 0 0.75rem 1.5rem; color: #333; }
+    ul li { margin-bottom: 0.4rem; }
+    .section { margin-bottom: 1.5rem; }
+    .steps { counter-reset: step; list-style: none; margin-left: 0; }
+    .steps li { counter-increment: step; display: flex; gap: 12px; margin-bottom: 1rem; align-items: flex-start; }
+    .steps li::before {
+      content: counter(step);
+      background: #1a1a1a;
+      color: #fff;
+      font-size: 13px;
+      font-weight: 600;
+      border-radius: 50%;
+      min-width: 26px;
+      height: 26px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 2px;
+    }
+    .cta {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 12px 24px;
+      background: #cc0000;
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 15px;
+    }
+    .cta:hover { background: #aa0000; }
+    .warning {
+      background: #fff8e1;
+      border-left: 4px solid #f9a825;
+      padding: 12px 16px;
+      border-radius: 0 8px 8px 0;
+      margin: 1rem 0;
+      font-size: 15px;
+      color: #555;
+    }
+    .data-table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 14px; }
+    .data-table th { background: #f5f5f5; text-align: left; padding: 10px 12px; border: 1px solid #e0e0e0; font-weight: 600; }
+    .data-table td { padding: 10px 12px; border: 1px solid #e0e0e0; color: #333; }
+    a { color: #0066cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #e5e5e5; font-size: 13px; color: #888; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Suppression de compte Rungo</h1>
+      <p>Application <strong>Rungo</strong> &nbsp;|&nbsp; RUNGO, Ouagadougou, Burkina Faso</p>
+    </header>
+
+    <div class="section">
+      <p>Vous pouvez demander la suppression de votre compte Rungo et de toutes les données associées à tout moment. Cette page vous explique la procédure à suivre ainsi que les données qui seront supprimées ou conservées.</p>
+    </div>
+
+    <div class="section">
+      <h2>Comment demander la suppression de votre compte</h2>
+      <ul class="steps">
+        <li><span>Envoyez un e-mail à <a href="mailto:rungobf@gmail.com">rungobf@gmail.com</a> avec l'objet : <strong>"Suppression de compte Rungo"</strong></span></li>
+        <li><span>Indiquez dans votre message le numéro de téléphone ou l'adresse e-mail associé à votre compte.</span></li>
+        <li><span>Notre équipe traitera votre demande dans un délai de <strong>7 jours ouvrables</strong> et vous enverra une confirmation.</span></li>
+        <li><span>Votre compte et vos données seront définitivement supprimés dans un délai de <strong>30 jours</strong> suivant la confirmation.</span></li>
+      </ul>
+
+      <a class="cta" href="mailto:rungobf@gmail.com?subject=Suppression%20de%20compte%20Rungo&body=Bonjour%2C%0A%0AJe%20souhaite%20supprimer%20mon%20compte%20Rungo.%0A%0AMon%20num%C3%A9ro%20de%20t%C3%A9l%C3%A9phone%20%2F%20e-mail%20associ%C3%A9%20au%20compte%20%3A%20%0A%0AMerci.">
+        Envoyer une demande de suppression
+      </a>
+    </div>
+
+    <div class="section">
+      <h2>Données supprimées</h2>
+      <p>Lors de la suppression de votre compte, les données suivantes sont <strong>définitivement supprimées</strong> :</p>
+
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Type de données</th>
+            <th>Action</th>
+            <th>Délai</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Informations de compte (nom, photo, e-mail, téléphone)</td>
+            <td>Supprimé</td>
+            <td>30 jours</td>
+          </tr>
+          <tr>
+            <td>Données de localisation</td>
+            <td>Supprimé</td>
+            <td>30 jours</td>
+          </tr>
+          <tr>
+            <td>Photos et fichiers uploadés</td>
+            <td>Supprimé</td>
+            <td>30 jours</td>
+          </tr>
+          <tr>
+            <td>Historique d'activité</td>
+            <td>Supprimé</td>
+            <td>30 jours</td>
+          </tr>
+          <tr>
+            <td>Contacts synchronisés</td>
+            <td>Supprimé</td>
+            <td>Immédiat</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="section">
+      <h2>Données conservées</h2>
+      <div class="warning">
+        ⚠️ Certaines données peuvent être conservées au-delà de 30 jours uniquement si la loi l'exige (obligations fiscales, litiges en cours, etc.). Ces données sont supprimées dès que l'obligation légale prend fin.
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Contact</h2>
+      <p>Pour toute question concernant la suppression de vos données :</p>
+      <p><strong>RUNGO</strong><br/>
+      Ouagadougou, Burkina Faso<br/>
+      <a href="mailto:rungobf@gmail.com">rungobf@gmail.com</a></p>
+    </div>
+
+    <footer>
+      <p>© 2026 Rungo. Tous droits réservés. &nbsp;|&nbsp; <a href="index.html">Politique de confidentialité</a></p>
+    </footer>
+  </div>
+</body>
+</html>
